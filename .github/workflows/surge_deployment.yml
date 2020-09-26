@@ -31,5 +31,5 @@ jobs:
     - name: Install Surge
       run: npm install --global surge 
     - name: Deploy to Surge
-      run: surge ./build class02.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build/class02 class02.surge.sh --token ${{ secrets.SURGE_TOKEN }}
        
